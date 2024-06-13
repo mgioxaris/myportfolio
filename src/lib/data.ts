@@ -22,8 +22,8 @@ import artifact1 from '../../public/artifacts/artifact1.png'
  * Set your site title and tell search engines about yourself
  */
 export const sitemetadata = {
-  title: 'Your Name',
-  description: 'Replace with a description of you that is 145-160 characters.',
+  title: 'Michele Gioxaris',
+  description: "I am a higher education professional. Currently studying for my Master's Degree in Higher Education Administration.",
   dark: false,
   footer: 'Your Name | All rights reserved',
 }
@@ -37,12 +37,12 @@ export const sitemetadata = {
 
 export const intro: Intro = {
   portrait: portrait,
-  portraitAlt: 'Describe your profile picture',
-  emoji: '👋',
-  description: `Hello <strong>I'm Ryan</strong>. I'm a graduate of Ocean County College. I enjoy <em>solving problems</em> and helping others with their goals.`,
+  portraitAlt: 'Portrait of Michele Gioxaris. Dark haired female, short hair.',
+  emoji: '😎',
+  description: `Hello <strong>I'm Michele</strong>. <em>EOF Assistant Director</em> at Ocean County College.`,
   buttons: [
     {
-      label: 'Download Resume',
+      label: 'Download My Resume',
       link: '/resume.pdf',
       style: 'default',
       icon: React.createElement(FaDownload),
@@ -52,6 +52,12 @@ export const intro: Intro = {
       style: 'outline',
       icon: React.createElement(FaLinkedin),
       alt: 'Visit my LinkedIn profile',
+    },
+    {
+      link: 'https://tiktok.com/',
+      style: 'outline',
+      icon: React.createElement(FaTiktok),
+      alt: 'Visit my TikTok profile',
     },
   ],
 }
@@ -83,28 +89,57 @@ export const artifacts: Array<Artifact> = [
 ] as const
 
 export const skills = [
+  'Communication',
   'Adobe CC',
   'Public Speaking',
   'Microsoft Office',
   'APA Formatting',
   'Persuasive Writing',
+  'Interpersonal',
+  'Highly Organized',
+  'Workshop Programming',
+  'Self-motivated',
 ] as const
 
 export const experience: Array<Experience> = [
   {
-    title: 'Ocean County College',
-    location: 'Toms River, NJ',
-    description: 'Associate in Science, CSIT',
+    title: 'Ashford University',
+    location: 'San Diego, CA',
+    description: 'Bachelors in Early Childhood Education',
     icon: React.createElement(LuGraduationCap),
-    start: '2018',
-    end: '2020',
+    start: '2011',
+    end: '2015',
   },
   {
-    title: 'Apple, Inc',
-    location: 'Cupertino, CA',
-    description: "Design and develop the world's most innovative products.",
+    title: 'Ocean County College',
+    location: 'Toms River, NJ',
+    description: "Office Coordinator for the Educational Opportunity Fund (EOF)",
     icon: React.createElement(HiOutlineBriefcase),
-    start: '2020',
+    start: '2016',
+    end: '2022',
+  },
+  {
+    title: 'Ocean County College',
+    location: 'Toms River, NJ',
+    description: "Program Coordinator and Advisor for the Educational Opportunity Fund (EOF)",
+    icon: React.createElement(HiOutlineBriefcase),
+    start: '2022',
+    end: '2023',
+  },
+  {
+    title: 'Ocean County College',
+    location: 'Toms River, NJ',
+    description: "Assistant Director for the Educational Opportunity Fund (EOF)",
+    icon: React.createElement(HiOutlineBriefcase),
+    start: '2023',
+    end: 'Present',
+  },
+  {
+    title: 'Southern New Hampshire University',
+    location: 'Manchester, NH',
+    description: "MS Higher Education Administration",
+    icon: React.createElement(LuGraduationCap),
+    start: '2022',
     end: 'Present',
   },
 ] as const
