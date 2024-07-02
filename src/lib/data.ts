@@ -23,9 +23,9 @@ import artifact1 from '../../public/artifacts/artifact1.png'
  */
 export const sitemetadata = {
   title: 'Michele Gioxaris',
-  description: "I am a higher education professional. Currently studying for my Master's Degree in Higher Education Administration.",
+  description: "I am a higher education professional. Skilled Student Affairs professional with nearly a decade of service. Astute organizer. Expert in data analysis and quantitative report writing. EOF scholar advocate and champion. Developer and presenter of experiential workshops and learning modules, online and face-to-face. Collaborative, coachable, self-directed, and able to monitor progress and productivity. Currently studying for my Master's Degree in Higher Education Administration.",
   dark: false,
-  footer: 'Your Name | All rights reserved',
+  footer: 'Michele Gioxaris | All rights reserved',
 }
 /**
  * END SEO DATA
@@ -37,8 +37,8 @@ export const sitemetadata = {
 
 export const intro: Intro = {
   portrait: portrait,
-  portraitAlt: 'Portrait of Michele Gioxaris. Dark haired female, short hair.',
-  emoji: '😎',
+  portraitAlt: 'Portrait of Michele Gioxaris. Dark haired female, curly hair, ponytail.',
+  emoji: '',
   description: `Hello <strong>I'm Michele</strong>. <em>EOF Assistant Director</em> at Ocean County College.`,
   buttons: [
     {
@@ -99,6 +99,7 @@ export const skills = [
   'Highly Organized',
   'Workshop Programming',
   'Self-motivated',
+  'Collaborative'
 ] as const
 
 export const experience: Array<Experience> = [
